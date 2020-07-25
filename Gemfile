@@ -9,7 +9,7 @@ gem 'oj', '~> 2.0'
 gem 'json-schema', '~> 2.0'
 gem 'rake', '~> 10.0'
 gem 'activesupport', '~> 3.0'
-gem 'google-api-client', '<0.9'
+gem 'google-api-client', '~> 0.10'
 
 # Rack middleware
 gem 'rack-accept', '~> 0.4'
@@ -18,7 +18,7 @@ gem 'rack-cache', '~> 1.0'
 gem 'redis-rack-cache', '~> 1.0'
 gem 'rack-timeout'
 gem 'rack-cors', :require => 'rack/cors'
-gem 'rack-attack', :require => 'rack/attack'
+gem 'rack-attack', '~> 5.4.2', require: 'rack/attack'
 
 # Data access (caching)
 gem 'redis', '~> 3.0'
